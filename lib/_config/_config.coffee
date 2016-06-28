@@ -4,11 +4,11 @@
 @Config =
 
 	# Basic Details
-	name: 'My App'
+	name: 'MakerMex ERP'
 	title: ->
-			TAPi18n.__ 'configTitle'
+			TAPi18n.__ 'Your MakerMex control board'
 	subtitle: ->
-			TAPi18n.__ 'configSubtitle'
+			TAPi18n.__ 'making your job easier'
 	logo: ->
 		'<b>' + @name + '</b>'
 	footer: ->
@@ -21,7 +21,7 @@
 
 	# Username - if true, users are forced to set a username
 	username: false
-	
+
 	# Localisation
 	defaultLanguage: 'en'
 	dateFormat: 'D/M/YYYY'
@@ -41,16 +41,16 @@
 
 	socialMedia:
 		facebook:
-			url: 'http://facebook.com/benjaminpeterjones'
+			url: 'http://facebook.com/makermex'
 			icon: 'facebook'
 		twitter:
-			url: 'http://twitter.com/BenPeterJones'
+			url: 'http://twitter.com/makermex3d'
 			icon: 'twitter'
 		github:
-			url: 'http://github.com/yogiben'
+			url: 'http://github.com/makermex'
 			icon: 'github'
 		info:
-			url: 'http://meteorfactory.io'
+			url: 'http://makermex.com'
 			icon: 'link'
 
 	#Routes
